@@ -1,6 +1,15 @@
-.pattern {
+.pattern{
+    background-image: url(./img/pattern.png);
     background-color: rgb(19, 150, 164);
+    background-size: contain;
+    background-repeat: repeat-x;
+    height: 100px;
+    width: 150px;
+}
 
+.logo {
+height: 50px;
+width: 50px;
 }
 
 .text_aqua {
@@ -19,9 +28,17 @@
     background-color: aqua;
     color: white;
     text-align: left;
-
 }
 
 .background_color_tr {
     background-color: lightseagreen;
+}
+
+.background_monitor {
+    background-image:url(./img/monitor.jpg);
+
+}
+
+.backgroun_graph {
+    background-image: url(./img/graph.jpg);
 }
