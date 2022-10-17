@@ -17,7 +17,10 @@
 
 .fontsize_section {
     font-size: 12px;
+}
 
+h5 {
+    margin-top: -22px;
 }
 
 .text_aqua {
@@ -26,10 +29,15 @@
 
 .text_gray {
     color: rgb(133, 128, 128);
+
 }
 
 .background_color_yellow {
     background-color: yellow;
+}
+
+table {
+    
 }
 
 .thead {
