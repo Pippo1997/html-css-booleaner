@@ -7,19 +7,25 @@
 }
 
 .logo {
-background-image: url(./img/logo.svg);
-height: 100px;
-width: 150px;
-background-repeat: no-repeat;
-background-position: bottom;
+    background-image: url(./img/logo.svg);
+    height: 100px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-left: 5px;
+}
+
+.fontsize_section {
+    font-size: 12px;
+
 }
 
 .text_aqua {
-    color: aqua;
+    color: rgb(25, 177, 194);
 }
 
 .text_gray {
-    color: lightgray;
+    color: rgb(133, 128, 128);
 }
 
 .background_color_yellow {
@@ -27,13 +33,13 @@ background-position: bottom;
 }
 
 .thead {
-    background-color: aqua;
+    background-color: rgb(31, 118, 161);
     color: white;
     text-align: left;
 }
 
 .background_color_tr {
-    background-color: lightseagreen;
+    background-color: rgb(85, 229, 222);
 }
 
 .background_monitor {
