@@ -1,15 +1,17 @@
 .pattern{
     background-image: url(./img/pattern.png);
-    background-color: rgb(19, 150, 164);
-    background-size: contain;
+    background-color: rgb(25, 177, 194);
     background-repeat: repeat-x;
+    background-size: contain;
     height: 100px;
-    width: 150px;
 }
 
 .logo {
-height: 50px;
-width: 50px;
+background-image: url(./img/logo.svg);
+height: 100px;
+width: 150px;
+background-repeat: no-repeat;
+background-position: bottom;
 }
 
 .text_aqua {
