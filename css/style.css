@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* inizio header */
 
 header{
@@ -11,13 +16,27 @@ header{
     margin-top: 40px;
 }
 
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
 /* fine header */
 
 /* inizio main */
 
+main .container{
+    width: 75%;
+    margin: 0 auto;
+}
+
 h1{
     font-size: 30px;
     line-height: 40px;
+}
+
+.img{
+    text-align: center;
 }
 
 .author{
@@ -36,6 +55,7 @@ h1{
 
 .caption{
     font-size: 12px;
+    margin-bottom: 10px;
 }
 
 .highlights{
@@ -48,6 +68,7 @@ ul{
 
 table{
     text-align: left;
+    margin-bottom: 30px;
 }
 
 thead{
@@ -89,3 +110,14 @@ h2{
 }
 
 /* inizio footer */
+
+footer .container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.img-text{
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+}
